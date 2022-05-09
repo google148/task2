@@ -48,13 +48,13 @@
           <label for="selectFaculty" class="form-label">Select Faculty</label>
           <select id="selectFaculty"  name="faculty" >
             <option selected>Choose...</option>
-            <option>BSC CSIT</option>
-            <option>BSC</option>
-            <option>BBA</option>
-            <option>BBS</option>
-            <option>BSW</option>
-            <option>BE IT</option>
-            <option>BCA</option>
+            <option value="1">BSC CSIT</option>
+            <option value="2">BSC</option>
+            <option value="2">BBA</option>
+            <option value="4">BBS</option>
+            <option value="5">BSW</option>
+            <option value="6">BE IT</option>
+            <option value="7">BCA</option>
           </select>
         </div>
         
@@ -65,6 +65,7 @@
               Check me out
             </label>
           </div>
+          <div><h1>Hello</h1></div>
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary">Save</button>
